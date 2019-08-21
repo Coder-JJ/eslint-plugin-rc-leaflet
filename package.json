@@ -1,0 +1,31 @@
+{
+  "name": "eslint-plugin-rc-leaflet",
+  "version": "1.0.0",
+  "description": "eslint-plugin-rc-leaflet",
+  "keywords": [
+    "eslint",
+    "plugin",
+    "eslint-plugin",
+    "rc-leaflet"
+  ],
+  "author": {
+    "name": "CoderJ"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^1.12.0",
+    "@typescript-eslint/parser": "^1.13.0",
+    "babel-eslint": "^10.0.2",
+    "eslint-plugin-react": "^7.14.2"
+  },
+  "devDependencies": {
+    "eslint": "^6.1.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=6.0.0"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "license": "MIT"
+}
