@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-rc-leaflet",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "eslint-plugin-rc-leaflet",
   "keywords": [
     "eslint",
@@ -19,7 +19,8 @@
     "eslint-plugin-react": "^7.14.3"
   },
   "devDependencies": {
-    "eslint": "^6.3.0"
+    "eslint": "^6.3.0",
+    "eslint-utils": ">=1.4.1"
   },
   "peerDependencies": {
     "eslint": ">=6.0.0"
