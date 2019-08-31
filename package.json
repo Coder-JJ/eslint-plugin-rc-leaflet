@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-rc-leaflet",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "eslint-plugin-rc-leaflet",
   "keywords": [
     "eslint",
@@ -13,13 +13,13 @@
   },
   "main": "index.js",
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^1.12.0",
+    "@typescript-eslint/eslint-plugin": "^1.13.0",
     "@typescript-eslint/parser": "^1.13.0",
-    "babel-eslint": "^10.0.2",
-    "eslint-plugin-react": "^7.14.2"
+    "babel-eslint": "^10.0.3",
+    "eslint-plugin-react": "^7.14.3"
   },
   "devDependencies": {
-    "eslint": "^6.1.0"
+    "eslint": "^6.3.0"
   },
   "peerDependencies": {
     "eslint": ">=6.0.0"
