@@ -22,7 +22,7 @@ module.exports = {
     "allowEmpty": false,
     "allowStaticOnly": false
   }],
-  "@typescript-eslint/no-floating-promises": 2,
+  "@typescript-eslint/no-floating-promises": 0,
   "@typescript-eslint/no-for-in-array": 2,
   "@typescript-eslint/no-inferrable-types": 0,
   "@typescript-eslint/no-non-null-assertion": 0,
