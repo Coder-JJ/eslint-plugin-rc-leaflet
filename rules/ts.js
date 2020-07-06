@@ -26,7 +26,6 @@ module.exports = {
   "@typescript-eslint/no-for-in-array": 2,
   "@typescript-eslint/no-inferrable-types": 0,
   "@typescript-eslint/no-non-null-assertion": 0,
-  "@typescript-eslint/no-object-literal-type-assertion": [2, { "allowAsParameter": true }],
   "@typescript-eslint/no-unnecessary-qualifier": 2,
   "@typescript-eslint/no-unnecessary-type-assertion": 2,
   "@typescript-eslint/no-unused-vars": [2, { "args": "none", "ignoreRestSiblings": true }],

@@ -1,15 +1,13 @@
 module.exports = {
-  settings: {
-    react: {
-      version: 'detect'
-    }
-  },
   env: {
     browser: true,
-    es6: true
+    commonjs: true,
+    es6: true,
+    jest: true,
+    node: true,
   },
   globals: {
     Atomics: 'readonly',
     SharedArrayBuffer: 'readonly'
-  },
+  }
 }

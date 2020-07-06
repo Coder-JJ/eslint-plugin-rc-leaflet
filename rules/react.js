@@ -7,7 +7,6 @@ module.exports = {
   "react/forbid-component-props": 0,
   "react/forbid-dom-props": 0,
   "react/forbid-elements": 0,
-  "react/forbid-prop-types": [2, { "forbid": ['any'] }],
   "react/forbid-foreign-prop-types": 0,
   "react/no-access-state-in-setstate": 2,
   "react/no-array-index-key": 0,
@@ -69,7 +68,7 @@ module.exports = {
   "react/jsx-no-literals": 0,
   "react/jsx-no-target-blank": 0,
   "react/jsx-no-undef": [2, { allowGlobals: true }],
-  "react/jsx-one-expression-per-line": [2, { allow: "single-child" }],
+  "react/jsx-one-expression-per-line": 0,
   "react/jsx-curly-brace-presence": [2, { props: "never", children: "never" }],
   "react/jsx-fragments": 2,
   "react/jsx-pascal-case": 2,
@@ -88,5 +87,7 @@ module.exports = {
     "condition": "parens-new-line",
     "logical": "parens-new-line",
     "prop": "parens-new-line"
-  }]
+  }],
+  "react-hooks/rules-of-hooks": 2,
+  "react-hooks/exhaustive-deps": 2
 }

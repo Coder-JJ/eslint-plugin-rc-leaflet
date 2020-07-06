@@ -5,7 +5,10 @@ module.exports = {
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
-      blockBindings: true
+      blockBindings: true,
+      impliedStrict: true,
+      experimentalObjectRestSpread: true,
+      legacyDecorators: true
     },
     ecmaVersion: 2018,
     sourceType: 'module'
